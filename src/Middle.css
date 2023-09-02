@@ -1,0 +1,51 @@
+.middle {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgb(61, 23, 40);
+    background-size: cover;
+    margin-top: 180px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.titulo {
+    font-weight: bolder;
+    font-size: 30px;
+
+    margin-top: 20px;
+  }
+
+section{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.tablet {
+    margin-top: 0px;
+    max-width: 250px;
+    border-radius: 5%;
+}
+
+.footer{
+    background-image: url('src/assets/vineyards-footer.jpg');
+    background-size: cover;
+    background-position: 20%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.redesSociales {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    color: rgb(61, 23, 40)
+}
+
+.usura {
+    width: 100%
+}

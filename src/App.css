@@ -1,0 +1,50 @@
+#root {
+  display: inline;
+  justify-content: space-evenly;
+  margin: 20 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 120px;
+  padding: 0px;
+}
+
+.card {
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.read-the-docs {
+  color: #888;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.header {
+  background-image: url('./assets/aperitif.jpg');
+  background-size: cover;
+  background-color: #1a1a1a;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.menu {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  text-align: center;
+  padding-top: 30px;
+  align-items: center;
+}
+
+li {
+  width: 120%;
+}
+
+.iconosUsabilidad {
+  width: 20%;
+}
